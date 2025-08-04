@@ -6,6 +6,27 @@ export const HERO_CONTENT = `I am a passionate full stack developer with a knack
 export const ABOUT_TEXT = `I am a BCA student at Renaissance University Indore, Presently undergoing practical training at Code Better in Indore, with an expected graduation in 2026. I have a deep passion for front-end development and a strong grasp of technologies such as React.js, JavaScript, GSAP, and DOM manipulation.
   With a strong interest in database management, I have practical experience with MySQL and MongoDB. I am proficient in Node.js and Express.js for back-end integration.`;
 
+export const EDUCATION = [
+  {
+    year: "2023 - 2026",
+    degree: "Bachelor of Computer Applications (BCA)",
+    institution: "Renaissance University, Indore",
+    description: "Pursuing a BCA degree with a focus on software development and computer applications.",
+  },
+  {
+    year: "8th May 2024 - 7th November 2024",
+    degree: "Full Stack Web Development Internship",
+    institution: "Code Better, Indore",
+    description: "I Completed trainig in full-stack web development & I am now a certifide full stack developer , gaining hands-on experience in building web applications.",
+    link:"https://drive.google.com/file/d/11ELdnao0bxLAoWhCkEzR-d8wmGqvcFkT/view?usp=sharing"
+  },
+  {
+    year: "2022 - 2023",
+    degree: "Higher Secondary Certificate (HSC)",
+    institution: "Shree S.L. Patel  Higher Secondary School, Rampura,Neemuch(M.P.)",
+    Percentage:"61%",
+  },
+]
 export const EXPERIENCES = [
   {
     year: "2025-Jan - Present - 2025-April",
