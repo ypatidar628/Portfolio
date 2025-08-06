@@ -18,13 +18,13 @@ export const EDUCATION = [
     degree: "Full Stack Web Development Internship",
     institution: "Code Better, Indore",
     description: "I Completed trainig in full-stack web development & I am now a certifide full stack developer , gaining hands-on experience in building web applications.",
-    link:"https://drive.google.com/file/d/11ELdnao0bxLAoWhCkEzR-d8wmGqvcFkT/view?usp=sharing"
+    link: "https://drive.google.com/file/d/11ELdnao0bxLAoWhCkEzR-d8wmGqvcFkT/view?usp=sharing"
   },
   {
     year: "2022 - 2023",
     degree: "Higher Secondary Certificate (HSC)",
     institution: "Shree S.L. Patel  Higher Secondary School, Rampura,Neemuch(M.P.)",
-    Percentage:"61%",
+    Percentage: "61%",
   },
 ]
 export const EXPERIENCES = [
@@ -33,8 +33,8 @@ export const EXPERIENCES = [
     role: "Full Stack Developer Intern",
     company: "Inwizio Technologies Indore",
     description: `I am designing and implementing a dynamic, high-performance full-stack web application with a visually appealing 
-and fully responsive user interface using modern technologies like  HTML, CSS, Tailwind-Css,GSAP,JavaScript, React.js, 
-and Node.js.  `,
+                  and fully responsive user interface using modern technologies like  HTML, CSS, Tailwind-Css,GSAP,JavaScript, React.js, 
+                  and Node.js.  `,
     technologies: ["Javascript", "React.js", "Node.js", "mongoDB"],
   }
 ];
@@ -45,7 +45,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A React.js-based API-driven web application that connects people in real-time and enables them  to chat seamlessly. \n" +
-        "Built using React.js, and  CSS.   ",
+      "Built using React.js, and  CSS.   ",
     technologies: ["HTML", "CSS", "React"],
   },
   {
@@ -53,9 +53,10 @@ export const PROJECTS = [
     image: project2,
     description:
       "A React.js-based API-driven web application that retrieves data and displays it on the user interface, allowing users to \n" +
-        "perform actions such as adding items to the cart or placing an order. It is built using React.js, Tailwind CSS, and basic \n" +
-        "GSAP animations.",
-    technologies: ["HTML", "Tailwind-CSS", "GSAP" , "React"],
+      "perform actions such as adding items to the cart or placing an order. It is built using React.js, Tailwind CSS, and basic \n" +
+      "GSAP animations.",
+    technologies: ["HTML", "Tailwind-CSS", "GSAP", "React"],
+    link: "https://democart-three.vercel.app/"
   },
 ];
 

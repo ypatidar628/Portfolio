@@ -30,6 +30,12 @@ const Projects = () => {
                             {project.technologies.map((tech, index) => (
                                 <span key={index} className="mr-2 mt-4 bg-neutral-900 px-2 py-1 text-sm text-purple-800">{tech}</span>
                             ))}
+                                    <br /><br />
+                              {project.link && (
+                                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-500">
+                                        View Web-App
+                                    </a>
+                        )}
                         </motion.div>
                     </div>
                 ))}
