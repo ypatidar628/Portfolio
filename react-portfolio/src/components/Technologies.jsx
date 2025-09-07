@@ -1,10 +1,11 @@
 import {RiReactjsLine} from "react-icons/ri";
-import {TbBrandJavascript } from "react-icons/tb";
-import {SiMongodb} from "react-icons/si";
+import {TbBrandJavascript, TbBrandTypescript } from "react-icons/tb";
+import {SiAngular, SiMongodb, SiTypescript} from "react-icons/si";
 import {RiTailwindCssFill } from "react-icons/ri";
 import {FaNodeJs} from "react-icons/fa";
 import {SiExpress } from "react-icons/si";
 import {motion} from "framer-motion";
+import { BiLogoTypescript } from "react-icons/bi";
 
 
 const Technologies =()=> {
@@ -75,6 +76,22 @@ const Technologies =()=> {
                  className="rounded-2xl border-4 border-neutral-800 ">
                  <SiExpress className="text-7xl text-white -mb-2 mt-2 pb-4"/>
              </motion.div>
+             
+             <motion.div
+                 variants={iconVarints(5)}
+                 initial="initial"
+                 animate="animate"
+                 className="rounded-2xl border-4 border-neutral-800 ">
+                 <SiAngular  className="text-7xl text-red-600 -mb-2 mt-2 pb-4"/>
+             </motion.div>
+             <motion.div
+                 variants={iconVarints(2)}
+                 initial="initial"
+                 animate="animate"
+                 className="rounded-2xl border-4 border-neutral-800 ">
+                <TbBrandTypescript className="text-7xl text-blue-600 -mb-2 mt-2 pb-4"/>
+             </motion.div>
+
          </motion.div>
 
 
