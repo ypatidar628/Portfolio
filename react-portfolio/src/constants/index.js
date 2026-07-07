@@ -15,7 +15,7 @@ export const EDUCATION = [
   },
   {
     year: "8th May 2024 - 7th November 2024",
-    degree: "Full Stack Web Development Internship",
+    degree: "Full Stack Web Development Training",
     institution: "Code Better, Indore",
     description: "I Completed trainig in full-stack web development & I am now a certifide full stack developer , gaining hands-on experience in building web applications.",
     link: "https://drive.google.com/file/d/11ELdnao0bxLAoWhCkEzR-d8wmGqvcFkT/view?usp=sharing"
@@ -29,14 +29,26 @@ export const EDUCATION = [
 ]
 export const EXPERIENCES = [
   {
-    year: "2025-Jan - Present - 2025-April",
+    year: "2025-Jan - 2025-April",
     role: "Full Stack Developer Intern",
     company: "Inwizio Technologies Indore",
     description: `I am designing and implementing a dynamic, high-performance full-stack web application with a visually appealing 
                   and fully responsive user interface using modern technologies like  HTML, CSS, Tailwind-Css,GSAP,JavaScript, React.js, 
                   and Node.js.  `,
     technologies: ["Javascript", "React.js", "Node.js", "mongoDB"],
+  },
+  {
+    year: "Oct 2025 - Jan 2026",
+    role: "Full Stack Developer Intern",
+    company: "Alphawizz Technologies Pvt Ltd, Indore",
+    description: `Designed and built responsive, high-performance full-stack web 
+              applications using React.js, Node.js, Express.js, and MongoDB, 
+              with UI development in Tailwind CSS and GSAP animations. 
+              Contributed to e-commerce projects and work on couple of live projects , working across both 
+              frontend and backend. Also explored Next.js, and Redux to broaden full-stack capabilities.`,
+    technologies: ["JavaScript", "React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS",],
   }
+
 ];
 
 export const PROJECTS = [

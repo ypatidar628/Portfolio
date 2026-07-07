@@ -77,7 +77,7 @@ const Technologies =()=> {
                  <SiExpress className="text-7xl text-white -mb-2 mt-2 pb-4"/>
              </motion.div>
              
-             <motion.div
+             {/* <motion.div
                  variants={iconVarints(5)}
                  initial="initial"
                  animate="animate"
@@ -90,7 +90,7 @@ const Technologies =()=> {
                  animate="animate"
                  className="rounded-2xl border-4 border-neutral-800 ">
                 <TbBrandTypescript className="text-7xl text-blue-600 -mb-2 mt-2 pb-4"/>
-             </motion.div>
+             </motion.div> */}
 
          </motion.div>
 
